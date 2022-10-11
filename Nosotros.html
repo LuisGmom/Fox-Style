@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no ">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/estilos.generales.css">
+    <!--Fuentes Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&display=swap" rel="stylesheet">
+    <!--Jquery UI-->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.13.1/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Fox Style</title>
+</head>
+<body>
+    <header class="content_Header row">
+        <div class="logoh col-1">
+            <img src="logo/FoxStyle.png">
+        </div>
+        <div class="titulo col-5">
+            <h1>Fox Style</h1>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-md color-nav1 navbar-light">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#contenido">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse upper-menu" id="contenido">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Productos.html">Productos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h2 id="inf_fx"></h2>
+    <section class="container-md cont_1 row">
+        <div class="info_princ col cont-centrado">
+            <img id="msjTool" class="img-logo-cr" src="logo/FoxStyle.png" alt="Fox-Style">
+        </div>
+    </section>
+    <section class="container-md cont_1 row">
+        <div class="info_princ col">
+            <h2>Fox Style</h2>
+            <p>
+                Nuestra empresa lleva 6 años de experiencia en el área de 
+                marketing digital y hemos logrado impulsar grandes 
+                campañas, llegando al publico meta y cumpliendo con los 
+                requerimientos de nuestros clientes. Fox Style a trabajado 
+                durante estos años con los mejores estandares de calidad y 
+                estudio del mercado, para mejorar la forma de impulsar tu 
+                negocio atraves de los diferentes medios siendo las redes 
+                sociales, correo y banners publicitarios. 
+            </p>
+            <hr>
+            <p>
+                Nuestro equipo de trabajo especializado en diferentes 
+                áreas se capacita con nuevas herramientas para mejorar el 
+                servicio brindado, ellos estarán para servirle en lo 
+                necesario para cumplir la meta y la satisfacción del 
+                proyecto que usted necesita para impulsar su negocio.   
+            </p>
+            <p>
+                Nuestro objetivo primordial es resolver a nuestros clientes 
+                la necesidad de aumentar su presencia en medios digitales e 
+                incrementar sus ventas. Todo esto, por medio de campañas 
+                únicas, que dejan tu marca en la mente de los consumidores y 
+                atraen una mayor cantidad de clientes. Esto lo podemos 
+                asegurar gracias a nuestros servicios de calidad insuperable, 
+                los cuales han ayudado a muchas empresas a encontrar lo que 
+                buscaban y que han confiado en nuestro trabajo.
+            </p>
+            <hr>
+            <h3>¡Somos Fox Style, su mejor opción!</h3>
+            <hr>
+        </div>
+    </section>
+<footer>
+    <section class="content_footer row">
+    <div class="col-4 columna1">
+        <a href="Index.html"><img src="logo/Fox Style.png"></a>
+    </div>
+    <div class="col-4 columna1">
+        <h4>Enlaces Importantes:</h4>
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Productos.html">Productos</a></li>
+            <li><a href="Nosotros.html">Nosotros</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+    <div class="col-4 columna2">
+        <h3>Contactenos:</h3>
+        <ul>
+            <li>Télefono: 27000000</li>
+            <li>Correo: mail@mail.com</li>
+            <li>Somos su mejor opción.</li>
+        </ul>
+    </div>
+    </section>
+    <div class="Reserve">
+        <h4>Luis Guillermo Martínez Valverde - 2022</h4>
+    </div>
+</footer>
+
+<!--Script JQuery-->
+<script type="text/javascript">
+    $("#inf_fx").tooltip({
+        open:function(event,ui){
+            $("#msjTool").html("¡Estamos para servirle!");
+        },
+        
+    });
+
+</script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="jquery/jquery-3.6.0.min.js"></script>
+<script src="popper/popper.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
